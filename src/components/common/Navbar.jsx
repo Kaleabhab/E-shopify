@@ -16,10 +16,34 @@ const Navbar = () => {
 
       <div className="flex items-center gap-6">
         <Link
+          to="/"
+          className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition"
+        >
+          Home
+        </Link>
+        <Link
           to="/shop"
           className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition"
         >
           shop
+        </Link>
+        <Link
+          to="/checkout"
+          className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition"
+        >
+          Checkout
+        </Link>
+        <Link
+          to="/wishlist"
+          className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition"
+        >
+          Wishlists
+        </Link>
+        <Link
+          to="/orders"
+          className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition"
+        >
+          Order
         </Link>
 
         <Link
